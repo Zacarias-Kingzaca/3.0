@@ -7,16 +7,30 @@
     <style>
      
      body{
-        background-image: url('');
+        
+        background-image: url('imagens/wallpaper002.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        
        
      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+
+      }
      div.quadrado{
-            display: inline-block;
+            display: flex;
             border: 2px solid black;
             border-radius: 10px;
             background-color: lightgray;
             width: 200px;
             height: 200px;
+            margin-right: 10px;
         }
 
         p > a {
@@ -28,6 +42,7 @@
             border-radius: 18px;
             text-decoration: none;
             text-transform: inherit;
+            border: 1px black solid;
            
         }
 
@@ -35,6 +50,7 @@
     </style>
 </head>
 <body>
+    <div class="container">
     <div class="quadrado" id="q1">    
     </div>
     <p><a href="#"> Comprar </a></p>
@@ -58,5 +74,7 @@
     <div class="quadrado" id="q6">
     </div>
     <p><a href="#"> Comprar </a></p>
+     </div>
+    
 </body>
 </html>
