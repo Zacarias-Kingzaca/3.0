@@ -107,65 +107,90 @@
         }
             p#p1{
                 position: relative;
-                bottom: -88%;
-                right: -7%;
+                bottom: 17%;
+                right: 1%;
+            
+                
                 
                 
               
             }
             p#p2{
                 position: relative;
-                bottom: -101%;
-                right: -7%;
+                bottom: 17%;
+                right: 1%;
                
             }
             p#p3{
                 position: relative;
-                bottom: -101%;
-                right: -7%;
-                
+                bottom: 17%;
+                right: -6%;
+               
             }
             p#p4{
                 position: relative;
-                bottom: -101%;
-                right: -7%;
-            
+                bottom: 17%;
+                right: -5%;
+               
             }
             p#p5{
                 position: relative;
-                bottom: -101%;
-                right: -7%;
+                bottom: 17%;
+                right: -1%;
+               
             
             }
             p#p6{
                 position: relative;
-                bottom: -101%;
-                right: -7%;
+                bottom: 17%;
+                right: -6%;
                
             }
             p#p7{
-                position: relative;
-                bottom: -101%;
-                right: -7%;
+                position : relative;
+                bottom: 17%;
+                right: -1%;
+               
                
             }
             p#p8{
                 position: relative;
-                bottom: -101%;
-                right: -7%;
+                bottom: 17%;
+                right: -1%;
+               
                
             }
             p#p9{
                 position: relative;
-                bottom: -101%;
-                right: -7%;
+                bottom: 17%;
+                right: 5%;
                
             }
             p#p10{
                 position: relative;
-                bottom: -101%;
-                right: -7%;
+                bottom: 17%;
+                right: -4%;
+               
             }
             
+            div img {
+              
+               max-width: 100%;
+               object-fit:cover;  
+               
+            }
 
+            p#py {
+                position: relative;
+                top: -78px;
+                background-color:lightgray; 
+                padding: 10px;
+                border-radius: 10px 10px;
+                margin-bottom:  0px ;
+                text-align: center;
+                text-decoration: solid;
+                font-family: Arial, Helvetica, sans-serif;
+
+            }
     
+          
