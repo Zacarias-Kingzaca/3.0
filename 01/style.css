@@ -30,7 +30,7 @@
          
         margin: 0px;
         padding: 0px;
-        background-image: url('imagens/wallpaper004.jpg');
+        background-color: white ;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -47,7 +47,11 @@
         padding: 8px;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
-        padding-bottom: 30px;       
+        padding-bottom: 30px;     
+        min-width: 400px ;
+        max-width: 1500px;
+        
+        
         
       
      }
@@ -56,6 +60,22 @@
         flex-wrap: wrap;
         gap: 3px;
 
+      }
+    
+      @media (max-width: 700px) {
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+      }
+
+      .container > {
+        width: 100px;
+        max-width: 400px;
+        margin: 10px 0;
+        text-align: center;
       }
       
      div.quadrado{
@@ -78,6 +98,7 @@
              border-radius: 10px 10px;
              bottom: -84%;
              position: relative;
+        
         }
         
 
@@ -192,5 +213,5 @@
                 font-family: Arial, Helvetica, sans-serif;
 
             }
-    
+          
           
