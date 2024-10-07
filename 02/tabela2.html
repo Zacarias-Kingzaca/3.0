@@ -29,11 +29,22 @@
             .nun {
                 text-align: right;
             }
+
             caption {
                 font-size: 1.5em;
                 font-weight: bolder;
                 padding: 10px;
                 background-color: lightgray;
+            }
+
+            tbody > tr:nth-child(odd) {
+                background-color: rgba(143, 142, 142, 0.418);
+                
+            }
+
+            tbody > tr:nth-child(even) {
+
+                background-color: rgba(44, 43, 43, 0.438);
             }
 
     </style>
@@ -44,14 +55,15 @@
 <body>
     
     <h1>Uso de tabelas grandes</h1>
+  
+    <table>
     <caption>
         Número de abitantes de Angola
     </caption>
-    <table>
         <thead>
             <tr>
-                <th>Província</td>
-                <th>População</th>
+                <th scope="col">Províncias</td>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -157,17 +169,13 @@
                 <tr>
                     <td>Bié</td>
                     <td  class="nun">2 000 000</td>
-                </tr>
-                
-               
-                
-                
+                </tr>        
                         
         </tbody>
 
         <tfoot>
-                <th>Total de abitantes</th>
-                <td class="nun">109 000 000</td>
+                <th scope="row">Total de abitantes</th>
+                <td class="nun"><strong>109 000 000</strong></td>
         </tfoot>
     </table>
 </body>
