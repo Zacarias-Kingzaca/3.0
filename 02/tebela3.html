@@ -6,75 +6,27 @@
     <title>Desafio 1</title>
     <style>
       
-      body {
+        body {
             font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: blue;
         }
 
-       table {
-        border-collapse: separate;
-        
-       }      
+        table {
+            background-color: white;
+        }
 
         td {
-            border: 1px solid black;
-            padding: 3px;
+            width: 50px;
+            height: 50px;
             text-align: center;
-            vertical-align: middle;
-            width: 70px;
-            height: 10px;
-         
-            
+            border: 1px solid black;
+            font-size: 30px;
         }
- 
-      
-        .dois {
-           position: relative;
-           right: -100px;
-           top: -28px;
-           
-           
-        }
-        .tres {
-           position: relative;
-           right: -200px;
-           top:  -78px;
-           height: 49px;
-        }
-      
-        .quatro {
-           position: relative;
-           right: -300px;
-           top: -129px;
-            
-        }
-      
-        .cinco {
-           position: relative;
-           right: -0px;
-           top: -157px;
-            
-        }
-        .seis{
-           position: relative;
-           right: -100px;
-           top: -185px;
-            
-        }
-        .sete {
-           position: relative;
-           right: -300px;
-           top: -190px;
-             
-        }
-
-     
-        .oito {
-            width: 30px;
-        }
-     
-        
-      
-      
       
 
     </style>
@@ -84,38 +36,39 @@
     <table>
         
         <tr>
-            <td>1</td>
-           
-        </tr>
 
-        <tr class="dois">
+            <td colspan="2">1</td>
             <td>2</td>
-        </tr>
-
-        <tr class="tres">
             <td>3</td>
         </tr>
-
-        <tr class="quatro">
-            <td>4</td>
-        </tr>
         
-        <tr class="cinco">
+        <tr>
+
+            <td rowspan="">4</td>
             <td>5</td>
-        </tr>
-        
-        <tr>
-            <td class="seis">6</td>
-        </tr>
-        
-        <tr>
-            <td class="sete">7</td>
+            <td>6</td>
         </tr>
 
         <tr>
-            <td class="oito">8</td>
+
+            <td>7</td>
+            <td>8</td>
         </tr>
-        
+
+
+        <tr>
+
+            <td colspan="">9</td>
+            <td>10</td>
+        </tr>
+
+        <tr>
+
+            <td>11</td>
+            <td>12</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
     
     </table>
 </body>
