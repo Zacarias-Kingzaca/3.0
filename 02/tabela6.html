@@ -4,25 +4,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela 06</title>
+
+    <style>
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      table {
+
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 600px;
+      }
+
+      td,th {
+
+        padding: 8px;
+        border: 1px solid black;
+      }
+
+    thead {
+
+      background-color: rgb(110, 106, 106);
+      color: white;
+      height: 80px;
+      
+    }
+
+    </style>
 </head>
 <body>
     
   <table>
     
     <thead>
-      <th>Área</th>
-      <th>Disciplinas</th>
-      <th colspan="1">Notas</th>
-      <th>Médias</th>
+      <th scope="col">Área</th>
+      <th scope="col">Disciplinas</th>
+      <th colspan="2" scope="colgroup">Notas</th>
+      <th scope="col">Médias</th>
     </thead>
 
     <tbody>
-        
-    </tbody>
+      <tr>
 
-
-
+      <th rowspan="5" scope="rowgroup">Exatas</th>      
     
+      <tr>
+
+      <th scope="rowgroup">Matemática</th>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      
+     </tr>
+
+     <tr>
+
+      <th scope="rowgroup">Física</th>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+  
+     </tr>
+
+     <tr>
+
+      <th scope="rowgroup">Química</th>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    
+     </tr>
+
+     <tr>
+
+      <th scope="rowgroup">Biologia</th>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      
+     </tr>
+
+     <tr style="background-color:  rgb(110, 106, 106); color: white;">
+
+      <td colspan="4">Média das Exatas</td>
+      <td>0.0</td>
+
+     </tr>
+
+     <tr>
+
+      <th rowspan="3" scope="rowgroup">Humanas</th>    
+
+     </tr>
+
+     <tr>
+
+      <th scope="rowgroup">História</th>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      
+     </tr>
+
+
+     <tr>
+
+      <th scope="rowgroup">Geográfia</th>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+  
+     </tr>
+
+     <tr style="background-color:  rgb(110, 106, 106); color: white;">
+      <td colspan="4">Média das Humanas</td>
+      <td>0.0</td>
+     </tr>
+
+    </tbody>    
   </table>
 
 
