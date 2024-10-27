@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
 
-
-
 * {
     padding: 0px;
     margin: 0px;
@@ -38,15 +36,33 @@ nav {
     background-color: black; 
     padding: 20px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.356);
-}
     
+}
 
 
 nav > a {
-    padding: 10px;
+    padding: 15px;
     text-decoration: none;
     font-weight: bold;
     color: white;
+       
+}
+
+.menu{
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
+}
+
+nav a:hover {
+    background-color: var(--cor1);
+    border-radius: 5px 5px;
+    transition: 1s;  
+    color: white;
+    text-decoration: none;
+    
 }
 
 section {
@@ -77,9 +93,68 @@ section#img2 {
 
 article {
     box-shadow: 0px 0px 6px  black;
-    background-color: black;
-    padding-top: 60vh;
+    background-color:  black;
+    padding-top: 10vh;
 }
+
+ article > p > a {
+  
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: left;
+    padding-top: 10px;
+}
+
+article > h1 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+
+}
+
+article a {
+    display: flex;
+    align-items: left top;
+    flex-direction: column;
+    align-items: center ;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: var(--cor1);
+    text-decoration: underline;
+    transition: 0.5s; 
+    
+
+}
+article > div {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    
+}
+
+
 
 footer {
     
