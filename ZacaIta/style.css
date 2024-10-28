@@ -21,16 +21,7 @@ html,body {
     width: 100vw;  
 }
 
-main {
-    background-color: white;
-    padding: 8px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding-bottom: 30px;     
-    min-width: 400px ;
-    max-width: 1500px; 
-  
-}
+
 
 header {
     width: 100vw;
@@ -62,7 +53,7 @@ nav > a {
        
 }
 
-.menu{
+.nav{
      
     display: flex;
     justify-content: center;
@@ -78,6 +69,15 @@ nav a:hover {
     text-decoration: none;
     
 }
+main{
+    background-color: white;
+    padding: 8px;
+    margin-top: 20px;
+    padding-bottom: 30px;     
+    min-width: 400px ;
+    max-width: 1500px; 
+  
+ }
 
 section {
     padding-top: 20vh;
@@ -169,24 +169,23 @@ article > div {
     
    
 }
-
+ 
 .pe > h1 {
     padding: 25px;
 }
 
 div.menu {
-    width: 500px;
-    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 250px;
+    height: 400px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  
 }
 
-.menu {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 100px;
-    background-color: darkgray;
-}
 
 footer {
     
