@@ -159,12 +159,7 @@ article > div {
     width: 300px;
 }
 
-.article {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    align-items: center;
-}
+
 
 .container {
     display: flex;
