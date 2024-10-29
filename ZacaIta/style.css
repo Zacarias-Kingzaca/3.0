@@ -220,6 +220,7 @@ article > div {
 }
 
 .container2  p {
+    text-shadow: 1px 1px black;
     color: white;
     font-size: 3em;
     font-weight: bold;
