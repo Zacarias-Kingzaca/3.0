@@ -213,6 +213,10 @@ article > div {
     gap: 10px;
 }
 
+.m1{
+   width: 200px;
+}
+
 footer {
     
     height: 10vh;
