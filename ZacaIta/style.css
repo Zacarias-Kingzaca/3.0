@@ -101,14 +101,7 @@ main{
     
 }
 
-main#receita {
-    background-color: white;
-    border-radius:  5px 5px;
-    box-shadow: 5px 5px solid rgba(0, 0, 0, 0.363);
-    padding-left: 10px;
-    font-size: 1.3em;
-    
-}
+
 
 main.form-container {
     background-color: white;
@@ -124,7 +117,7 @@ section {
     padding-top: 5vh; 
     padding-bottom: 5vh;
     line-height: 2em;
-    padding-left: 20px;
+    padding-left: 30px;
     font-size: 1.5em;
 }
 
@@ -138,16 +131,11 @@ section.imagem {
     
 }
 
-
-
 section.normal1 {
-    font-size: 1em;
+    font-size: 1.2em;
+    padding-left: 50px;
+    padding-bottom: 5vh;
   
-}
-
-section#normal {
-    font-size: 0.7em;
-    padding-left: 1px;
 }
 
 section.imagem1 {
@@ -156,8 +144,7 @@ section.imagem1 {
     box-shadow:inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
     background-size: cover;
     background-attachment: fixed;
-    height: 250px;
-    position: relative;
+    height: 250px;    
    
 }
 
@@ -187,42 +174,6 @@ section#img5 {
    
   
 }
-
-
-section#img6 {
-   width: 100%;
-  
-}
-
-
-section#img7 {
-    
-    width: 100%;
-  
-}
-
-
-section#img8 {
-    
-    width: 100%;
-  
-}
-
-
-section#img9 {
-    
-    width: 100%;
-  
-}
-
-
-section#img10 {
-    
-    width: 100%;
-   
-}
-
-
 
 
 article {
